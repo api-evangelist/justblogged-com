@@ -1,4 +1,4 @@
-# justblogged-com
+# JustBlogged
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,138 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-justblogged-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://justblogged.com/
+JustBlogged offers a free blogging platform that lets users publish on custom domains with built‑in themes, SEO tools, and collaborative features. It targets writers who want a simple, hosted solution without the hassle of managing plugins or server infrastructure, providing both free and paid Pro plans for enhanced capabilities.
+
+**Areas:** Blogging · Platform · Free · Custom-Domain · SaaS
+
+## JustBlogged on APIs.io
+
+Everything profiled for JustBlogged is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/justblogged-com/](https://apis.io/providers/justblogged-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (10)
+
+- [JustBlogged API Keys API](https://apis.io/apis/justblogged-com/justblogged-com-api-keys-api/) — Blog-scoped API key management
+- [JustBlogged Blogs API](https://apis.io/apis/justblogged-com/justblogged-com-blogs-api/) — Blog discovery and selection
+- [JustBlogged Collections API](https://apis.io/apis/justblogged-com/justblogged-com-collections-api/) — Collection (category) management
+- [JustBlogged Images API](https://apis.io/apis/justblogged-com/justblogged-com-images-api/) — Blog image uploads
+- [JustBlogged Members API](https://apis.io/apis/justblogged-com/justblogged-com-members-api/) — Blog member discovery
+- [JustBlogged Pages API](https://apis.io/apis/justblogged-com/justblogged-com-pages-api/) — Static page management
+- [JustBlogged Posts API](https://apis.io/apis/justblogged-com/justblogged-com-posts-api/) — Blog post management
+- [JustBlogged Redirects API](https://apis.io/apis/justblogged-com/justblogged-com-redirects-api/) — Blog redirect management
+- [JustBlogged Tags API](https://apis.io/apis/justblogged-com/justblogged-com-tags-api/) — Tag management
+- [JustBlogged Themes API](https://apis.io/apis/justblogged-com/justblogged-com-themes-api/) — The Themes API from JustBlogged — 5 operation(s) for themes.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [JustBlogged Agentic Access](https://apis.io/agentic-access/justblogged-com/justblogged-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [CreateCollectionRequest](https://apis.io/schemas/justblogged-com/justblogged-com-create-collection-request/)
+- [CreatePageRequest](https://apis.io/schemas/justblogged-com/justblogged-com-create-page-request/)
+- [CreatePostRequest](https://apis.io/schemas/justblogged-com/justblogged-com-create-post-request/)
+- [Post](https://apis.io/schemas/justblogged-com/justblogged-com-post/)
+- [UpdatePageRequest](https://apis.io/schemas/justblogged-com/justblogged-com-update-page-request/)
+- [UpdatePostRequest](https://apis.io/schemas/justblogged-com/justblogged-com-update-post-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Justblogged Com Context](https://apis.io/jsonld/justblogged-com/justblogged-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [JustBlogged API Rules](https://apis.io/rules/justblogged-com/justblogged-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [JustBlogged Authentication](https://apis.io/security/justblogged-com/justblogged-com-authentication/)
+- [JustBlogged Domain Security](https://apis.io/security/justblogged-com/justblogged-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [JustBlogged Plans Pricing](https://apis.io/plans/justblogged-com/justblogged-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://justblogged.com/)
+- [Documentation](https://justblogged.com/developers)
+- [API reference](https://justblogged.com/openapi.yml)
+- [Pricing](https://justblogged.com/pricing)
+- [Support](https://justblogged.com/help)
+- [Blog](https://justblogged.com/blog)
+- [Terms of service](https://justblogged.com/terms)
+- [Privacy policy](https://justblogged.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 56.3** — strong · rubric 0.27.0 · scored 2026-11-13
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 63.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 51.7 |
+| Access clarity | 63.7 |
+
+**Agent readiness 51.9** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/justblogged-com/](https://apis.io/providers/justblogged-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for JustBlogged: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/justblogged-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
